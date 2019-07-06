@@ -102,6 +102,7 @@ Features:
 **AndroNix communities**  
 Twitter- https://twitter.com/AndronixApp  
 Telegram- https://t.me/AndronixApp  
+Discord- https://discord.gg/jywhBH4 
 WhatsApp- https://chat.whatsapp.com/CYIWLuVoTIX0hW9tL2o0ta
 
 ## Credits 
