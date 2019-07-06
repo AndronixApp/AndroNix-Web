@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.5/css/uikit.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.5/js/uikit.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.5/js/uikit-icons.min.js"></script>
+    <script src="home.js"></script>
+</head>
+
+<style>
+    .po {
+        border-radius: 7px;
+    }
+</style>
+
+<body>
+
+
+
+    <div class="uk-section uk-section-primary uk-preserve-color">
+        <div class="uk-container">
+            <div class="uk-panel uk-light uk-margin-medium">
+                <div>
+                    <h1 class="uk-text-center">Welcome,</h1>
+                </div>
+                <div class="uk-margin">
+                    <h3 class="uk-text-center">Prakhar</h3>
+                </div>
+                <div>
+                    <h4 class="uk-text-center uk-margin-medium">hello@prakharshukla.in</h4>
+                </div>
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body po">
+                        <p class="uk-text-center uk-text-bold">You have 25 commands synced on the cloud. Nice work,
+                            happy coding!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="uk-card uk-card-default uk-card-body" style="display: inline">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua.
+        <div>
+            <button id="emailLogin" class="uk-button uk-button-primary uk-margin-top" style="display: inline">Login</button>
+        </div>
+    </div>
+
+
+
+</body>
+
+
+<script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.0.2/firebase-firestore.js"></script>
+
+<script>
+    var firebaseConfig = {
+        apiKey: "AIzaSyB_VelAX2Fwtz2YE3tQUdkOUvvTP3aPpCw",
+        authDomain: "andronix-techriz.firebaseapp.com",
+        databaseURL: "https://andronix-techriz.firebaseio.com",
+        projectId: "andronix-techriz",
+        storageBucket: "andronix-techriz.appspot.com",
+        messagingSenderId: "83697300023",
+        appId: "1:83697300023:web:62d2876d99699a09"
+    };
+
+    firebase.initializeApp(firebaseConfig);
+</script>
+
+
+</html>

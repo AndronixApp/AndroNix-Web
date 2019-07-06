@@ -1,0 +1,107 @@
+body {
+  background: #fff;
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+}
+
+input, button {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+}
+
+.main-div, .loggedin-div {
+  width: 20%;
+  margin: 0px auto;
+  margin-top: 150px;
+  padding: 20px;
+  display: none;
+}
+
+.main-div input {
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #fff;
+  padding: 15px;
+  outline: none;
+  width: 100%;
+  margin-bottom: 20px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+}
+
+.main-div input:focus {
+  border: 1px solid #777;
+}
+
+
+.content{
+  background: #fff;
+  max-width: 960px;
+  margin: 30px auto;
+  padding:  20px 30px;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1)
+}
+
+ul{
+
+  list-style-type: none;
+  padding: 0;
+}
+
+li{
+  padding: 30px;
+  margin: 2%;
+  background: #e9e9e9;
+  font-size: 20px;
+  color: #ffffff;
+  position: relative;
+  border-bottom: 1px solid #e6e6e6;
+  height: 46px;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+  
+}
+
+li span{
+  display: block;
+}
+
+li div{
+
+  position: absolute;
+  top: 0;
+  right: 0px;
+  background: rgba(255,255,255,0.6);
+  width: 40px;
+  text-align: center;
+  padding: 10px 0;
+  font-weight:  bold;
+  cursor:  pointer;
+}
+
+
+.main-div button, .loggedin-div button {
+  background: #F7A351;
+  color: #fff;
+  border: 1px solid #F7A351;
+  border-radius: 5px;
+  padding: 15px;
+  display: block;
+  width: 100%;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  background-image: linear-gradient(to bottom right, #F7A351, #F2CC1F);
+}
+
+.main-div button:hover, .loggedin-div button:hover {
+  background: #fff;
+  color: #F7A351;
+  border: 1px solid #F7A351;
+  cursor: pointer;
+}
