@@ -1,18 +1,4 @@
-
-![alt text](https://firebasestorage.googleapis.com/v0/b/andronix-techriz.appspot.com/o/Artboard%20%E2%80%93%203.png?alt=media&token=f454c33f-6a4e-4a78-8be4-d84bb757036e)
-
-
-## AndroNix Web
-
-Andronix Web opens an other dimension to the usability of AndroNix. Do everything on **any internet connected device** that you to on the AndroNix App, anywhere, anytime.
-
-> AndroNix web is **not a completely bug free web app**. It needs a lot of improvements. ***Pull requests are always welcome*** and any improvement in the code structure, UI or anything that makes the user experience better, is always welcome and appreciated.
-
-## Why to contribute and improve?
-We here at Andronix are trying to make the ends meet, but the problem is that we are a small group of people which makes managing stuff hard. The open-source community on GitHub is what we look forward to for improving the project and make it more easy to look and pretty for the user around the globe.
-
-If you are contributing in anyway, please let us know. We'll definitely reward anyone who helps us. ❤ 
-
+<img src="https://github.com/Techriz/AndronixOrigin/blob/master/Assests/banner.png" height="715" width="805" />
 
 ## AndroNix - Linux on Android
 
@@ -23,7 +9,7 @@ This app lets you install various popular Linux distributions on your Android de
 
 > AndroNix may or may not work for your device. As Linux is not optimized for Android and there can be zillion hardware combinations devices, thereby making it impossible to debug for each and every device. 
 
-## **AndroNix 2.1 or above supports -**
+## **AndroNix 4.0 or above supports -**
 
 * **AndroNix Premium** - We have released AndroNix Premium with tons of features.  
   
@@ -53,16 +39,16 @@ This app lets you install various popular Linux distributions on your Android de
 AndroNix. It is the officially signed APK with the original keys so you can update it via Google Play Store.
 
 <p align="center">
-  <img src="https://firebasestorage.googleapis.com/v0/b/andronix-techriz.appspot.com/o/Group%20246.png?alt=media&token=7419f3b6-acf2-4ff6-8a4a-656a89eebf49" height="500" width="281.6" />
-  <img src="https://firebasestorage.googleapis.com/v0/b/andronix-techriz.appspot.com/o/Group%20247.png?alt=media&token=60bc36c6-583f-4010-ba70-89bb4804f9b8" height="500" width="281.6" /> 
-  <img src="https://firebasestorage.googleapis.com/v0/b/andronix-techriz.appspot.com/o/Group%20248.png?alt=media&token=5fe847f2-a23a-40a4-a667-a8316e7d46aa" height="500" width="281.6"/>
+  <img src="https://github.com/Techriz/AndronixOrigin/blob/master/Assests/ubuntu.png" height="450" width="253.0" />
+  <img src="https://github.com/Techriz/AndronixOrigin/blob/master/Assests/manjaro.png" height="450" width="253.0" /> 
+  <img src="https://github.com/Techriz/AndronixOrigin/blob/master/Assests/kali.png" height="450" width="253.0"/>
 </p>
 
 
 <p align="center">
-  <img src="https://firebasestorage.googleapis.com/v0/b/andronix-techriz.appspot.com/o/Group%20249.png?alt=media&token=c3fc9018-6a29-482d-a7db-ac30273bb528" height="500" width="281.6" />
-  <img src="https://firebasestorage.googleapis.com/v0/b/andronix-techriz.appspot.com/o/Group%20250.png?alt=media&token=61253d37-e1c2-40f6-b494-72b755c69a81" height="500" width="281.6" /> 
-  <img src="https://firebasestorage.googleapis.com/v0/b/andronix-techriz.appspot.com/o/Group%20251.png?alt=media&token=7f547be1-1e5e-4fa5-a0bd-8f71ad9d7fb0" height="500" width="281.6"/>
+ <img src="https://github.com/Techriz/AndronixOrigin/blob/master/Assests/audio.png" height="450" width="253.0" />
+  <img src="https://github.com/Techriz/AndronixOrigin/blob/master/Assests/softwares.png" height="450" width="253.0" /> 
+  <img src="https://github.com/Techriz/AndronixOrigin/blob/master/Assests/installations.png" height="450" width="253.0"/>
 </p>
 
 ## Some important things - 
@@ -73,6 +59,7 @@ Features:
   
 - No root permissions required.  
 - Distros we support:  
+* Manjaro
 * Ubuntu  
 * Kali Linux  
 * Debian  
@@ -80,7 +67,7 @@ Features:
 * Fedora  
 * Arch Linux  
   
-- Desktop environments we support:  
+- Desktop environments we support:
 * LXDE  
 * LXQT  
 * MATE  
@@ -95,18 +82,15 @@ Features:
   
 - Android version should be atleast 5.0  
   
-- Device architecture supported: ARMv7, ARM64, x64, x86  
+- Device architecture supported: ARMv7, ARM64, x64.
 
 ## Reach us
   
 **AndroNix communities**  
 Twitter- https://twitter.com/AndronixApp  
-Telegram- https://t.me/AndronixApp  
+Telegram- https://t.me/AndronixApp
 Discord- https://discord.gg/jywhBH4 
-WhatsApp- https://chat.whatsapp.com/CYIWLuVoTIX0hW9tL2o0ta
 
 ## Credits 
-AnLinux- https://play.google.com/store/apps/details?id=exa.lnx.a  
 Termux- https://play.google.com/store/apps/details?id=com.termux  
   
-
