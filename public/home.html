@@ -2,246 +2,225 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>AndroNix Commands</title>
-    <link rel="icon" href="https://firebasestorage.googleapis.com/v0/b/andronix-techriz.appspot.com/o/Group%204.png?alt=media&token=fc9f1da9-3482-4b21-a7cf-f6f723159311">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.5/css/uikit.min.css" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.5/js/uikit.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.5/js/uikit-icons.min.js"></script>
-    <link rel="stylesheet" href="home.css">
-    <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <meta charset="UTF-8"/>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>Andronix Commands</title>
+    <link rel="stylesheet" href="./css/style.css"/>
+    <link rel="stylesheet" href="./css/loader.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/andronix_logo_favicon.png">
 </head>
 
-<style>
-    .po {
-        border-radius: 7px;
-    }
+<body class="bg-body text-body font-body static">
 
-    .hidd {
-        display: none;
-    }
 
-    .pointer {
-        cursor: pointer;
-    }
-
-    .cap {
-        text-transform: capitalize;
-        float: right
-    }
-
-    .capp {
-        text-transform: capitalize;
-        float: left;
-    }
-
-    .work {
-        font-family: 'Work Sans', sans-serif;
-
-    }
-
-    .spacer {
-        margin-top: 15px;
-    }
-
-    .drop {
-        padding: 10px;
-        border-style: solid;
-        border-color: rgb(172, 172, 172);
-    }
-
-    .uk-button-orange {
-        background-color: #FF8B25;
-        border-radius: 15px;
-        color: white;
-    }
-
-    .uk-button-red {
-        background-color: #EE0F0F;
-        border-radius: 15px;
-        color: white;
-    }
-
-    .uk-button-blue {
-        background-color: #299AD4;
-        border-radius: 15px;
-        color: white;
-    }
-
-    .uk-button-green {
-        background-color: #2DEE0F;
-        border-radius: 15px;
-        color: white;
-    }
-
-    .lessmar {
-        margin-right: -75px;
-    }
-
-    .uk-button-black {
-        background-color: #1E1E1E;
-        border-radius: 15px;
-        color: white;
-    }
-
-    .uk-button-purple {
-        background-color: #740CEB;
-        border-radius: 15px;
-        color: white;
-    }
-
-    .uk-button-gray {
-        background-color: rgb(77, 77, 77);
-        border-radius: 15px;
-        color: white;
-    }
-
-    .uk-section-primary {
-        background-color: #FF8B25;
-    }
-
-    .uk-button-primary {
-        background-color: #FF8B25;
-
-    }
-
-    .uk-button-primary :hover {
-        color: #FF8B25;
-    }
-</style>
-
-<body>
-
-    <div class="uk-section-primary uk-preserve-color">
-        <div class="uk-container lessmar" style="margin-right: 15px">
-            <button id="github" class="uk-button uk-button-primary work cap">
-                Improve on
-                <span class="uk-margin-small-right" uk-icon="icon: github"></span>
-            </button>
-            <div class="lessmar">
-                <button  id="play" class="uk-button uk-button-primary work capp">
-                    Get the app
-                    <span class="uk-margin-small-right" uk-icon="icon: phone"></span>
-                </button>
-                <button id="logout" class="uk-button uk-button-primary work cap">
-                   Sign-out
-                    <span class="uk-margin-small-right" uk-icon="icon: sign-out"></span>
-                </button>
-            </div>
-        </div>
+<nav class="nav flex flex-wrap items-center shadow-sm justify-between px-4 z-10">
+    <div class="flex flex-no-shrink items-center mr-6 py-3 text-grey-darkest">
+        <span class="font-bold font-sans text-xl tracking-tight">Andronix App</span>
     </div>
 
-    <div class="uk-section uk-section-primary uk-preserve-color uk-animation-fade">
-        <div class="uk-container">
-            <div class="uk-panel uk-light uk-margin-medium">
-                <div>
-                    <h1 class="uk-text-center work">Welcome,</h1>
-                </div>
-                <div class="uk-margin">
-                    <h3 id="user_name" class="uk-text-center work uk-animation-slide-top-medium">Name</h3>
-                </div>
-                <div>
-                    <h4 id="user_mail" class="uk-text-center uk-margin-medium work uk-animation-slide-bottom-medium">
-                        Email</h4>
-                </div>
-                <div>
-                    <div class="uk-card uk-card-default uk-card-body po work uk-animation-slide-top-medium">
-                        <p id="comNum" class="uk-text-center uk-text-bold work">Click on the card you want to copy or
-                            query the results as per your liking!</p>
-                    </div>
-                </div>
-            </div>
+    <input class="menu-btn hidden" type="checkbox" id="menu-btn"/>
+    <label class="menu-icon block cursor-pointer md:hidden px-2 py-4 relative select-none" for="menu-btn">
+        <span class="navicon bg-grey-darkest flex items-center relative"></span>
+    </label>
+
+    <ul class="menu border-b md:border-none flex justify-end list-reset m-0 w-full md:w-auto">
+        <li class="border-t md:border-none">
+            <a href="https://forum.andronix.app"
+               class=" hover:text-orange-500 block md:inline-block px-4 py-3 font-sans no-underline font-semibold text-grey-darkest hover:text-grey-darker">Forum</a>
+        </li>
+
+        <li class="border-t md:border-none">
+            <a href="https://chat.andronix.app"
+               class=" hover:text-orange-500 block md:inline-block px-4 py-3 no-underline font-sans font-semibold text-grey-darkest hover:text-grey-darker">Discord</a>
+        </li>
+
+        <li class="border-t md:border-none">
+            <a href="/" id="logout"
+               class=" hover:text-orange-500 block md:inline-block px-4 py-3 no-underline font-sans font-semibold text-grey-darkest hover:text-grey-darker">Logout</a>
+        </li>
+
+
+        <li class="border-t md:border-none">
+            <a href="https://git.andronix.app"
+               class=" hover:text-orange-500 block md:inline-block px-4 py-3 no-underline font-sans font-semibold text-grey-darkest hover:text-grey-darker">GitHub</a>
+        </li>
+    </ul>
+</nav>
+
+<!--   <div class="alert-banner w-full relative top-0">
+  <input type="checkbox" class="hidden" id="banneralert">
+
+  <label class="close cursor-pointer flex items-center justify-between w-full p-2 bg-green-500 shadow text-white"
+    title="close" for="banneralert">
+    Command Added!
+    <svg class="fill-current text-white" xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+      viewBox="0 0 18 18">
+      <path
+        d="M14.53 4.53l-1.06-1.06L9 7.94 4.53 3.47 3.47 4.53 7.94 9l-4.47 4.47 1.06 1.06L9 10.06l4.47 4.47 1.06-1.06L10.06 9z">
+      </path>
+    </svg>
+  </label>
+</div>
+-->
+
+<div id="hero_layout" class="bg-orange-500 px-10 py-10 flex flex-wrap flex-col content-center static pb-">
+    <h1 class="mx-auto font-sans text-white font-extrabold text-center text-4xl">
+        Andronix Commands
+    </h1>
+
+    <p id="welcome_text" class="mx-auto text-white font-sans text-center font-bold text-base mt-2">
+    </p>
+
+    <p class=" mx-auto text-white font-sans text-center text-base mt-6">
+        Click on the card you want to copy or query the results as per your
+        liking!
+    </p>
+</div>
+
+
+<!-- Command Add Layout -->
+<div class="hidden" id="command_add_layout">
+    <div class="px-10 py-10 flex flex-wrap flex-col content-center static shadow">
+        <h3 class="mx-auto font-sans text-gray-600 font-bold text-xl mb-6 text-center">
+            Add Commands
+        </h3>
+
+        <!-- Command Fields -->
+        <div class="mb-4">
+            <input id="command_field"
+                   class="appearance-none block w-full py-3 px-4 leading-tight text-gray-700 bg-gray-200 focus:bg-white border font-sans border-gray-200 focus:border-gray-500 rounded focus:outline-none"
+                   type="text" placeholder="Command"/>
         </div>
-    </div>
+        <div>
+            <input id="desp_field"
+                   class="appearance-none block w-full p-3 px-4 leading-tight text-gray-700 bg-gray-200 focus:bg-white font-sans border border-gray-200 focus:border-gray-500 rounded focus:outline-none"
+                   type="text" placeholder="Description"/>
+        </div>
 
-
-    <div class="uk-card uk-card-default uk-card-body uk-text-center work uk-animation-fade" style="z-index: 100;"
-        uk-sticky="bottom: #offset">
-        Want to add a command? Add by clicking on the button, select a color and update. That's it!
-
-        <form>
-            <div class="uk-margin">
-                <input id="comSel"
-                    class="uk-input uk-form-width-medium uk-margin-medium-top hidd uk-animation-slide-left" type="text"
-                    placeholder="Command">
-            </div>
-
-            <div class="uk-margin">
-                <input id="desSel" class="uk-input uk-form-width-medium hidd uk-animation-slide-right" type="text"
-                    placeholder="Discription">
-            </div>
-
-
-            <select id="colorSel" class="drop hidd uk-animation-fade">
-                <option value="#FF8B25 ">Orange</option>
+        <!-- Dropdown -->
+        <div class="mt-6 flex justify-center">
+            <select id="command_add_dropdown" class="bg-gray-200 py-2 rounded-l select_arrow">
+                <option value="#FF8B25">Orange</option>
                 <option value="#299AD4">Blue</option>
                 <option value="#740CEB">Purple</option>
                 <option value="#2DEE0F">Green</option>
                 <option value="#EE0F0F">Red</option>
                 <option value="#1E1E1E">Black</option>
             </select>
+        </div>
 
+        <button id="add_command_submit_button"
+                class="rounded-t bg-gray-200 hover:bg-gray-400 py-2 mt-8 mb-2 shadow-md font-sans text-gray-900 font-bold">
+            Submit
+        </button>
 
-            <div class="uk-margin-medium-top">
-                <button id="adder" type="button"
-                    class="uk-button uk-button-primary uk-margin-large hidd uk-animation-slide-top">Submit</button>
-            </div>
-            <div>
-                <a id="visibler" type="button" class="uk-button uk-button-primary uk-margin-small-top">Add</a>
-            </div>
-
-        </form>
     </div>
+</div>
 
-
-    <div id="querer" class="uk-card uk-card-default uk-card-body uk-text-center work margin-medium hidd">
-        Query your commands by clicking on one of the colored buttons...
-        <div class="margin-medium spacer">
-            <button id="red" class="uk-button uk-button-red uk-animation-slide-left">Red</button>
-            <button id="blue" class="uk-button uk-button-blue uk-animation-slide-left">Blue</button>
-            <button id="green" class="uk-button uk-button-green uk-animation-slide-left">Green</button>
-            <button id="purple" class="uk-button uk-button-purple uk-animation-fade">Purple</button>
-            <button id="black" class="uk-button uk-button-black uk-animation-slide-right">Black</button>
-            <button id="orange" class="uk-button uk-button-orange uk-animation-slide-right">Orange</button>
-            <button id="gray" class="uk-button uk-button-gray uk-animation-slide-right">All</button>
+<!-- Filter Section -->
+<div class="hidden" id="command_filter_layout">
+    <div class="px-10 py-10 flex flex-wrap justify-center flex-col shadow" id="command_enter_layout">
+        <h3 class="font-sans text-gray-600 font-bold text-xl text-center">
+            Filter Commands
+        </h3>
+        <div class="mx-auto px-10 py-10 flex flex-wrap content-center justify-center static">
+            <button id="orange"
+                    class=" px-6 py-2 text-white font-sans text-sm font-medium shadow-sm bg-orange-500 rounded-full mr-3 mt-3 hover:bg-orange-700 active:shadow-lg mouse transition ease-in duration-200 focus:outline-none">
+                Orange
+            </button>
+            <button id="blue"
+                    class=" px-6 py-2 text-white font-sans text-sm font-medium shadow-sm bg-blue-500 rounded-full mr-3 mt-3 hover:bg-blue-700 active:shadow-lg mouse transition ease-in duration-200 focus:outline-none">
+                Blue
+            </button>
+            <button id="purple"
+                    class=" px-6 py-2 text-white font-sans text-sm font-medium shadow-sm bg-purple-500 rounded-full mr-3 mt-3 hover:bg-purple-700 active:shadow-lg mouse transition ease-in duration-200 focus:outline-none">
+                Purple
+            </button>
+            <button id="green"
+                    class=" px-6 py-2 text-white font-sans text-sm font-medium shadow-sm bg-green-500 rounded-full mr-3 mt-3 hover:bg-green-700 active:shadow-lg mouse transition ease-in duration-200 focus:outline-none">
+                Green
+            </button>
+            <button id="black"
+                    class=" px-6 py-2 text-white font-sans text-sm font-medium shadow-sm bg-black rounded-full mr-3 mt-3 hover:bg-gray-700 active:shadow-lg mouse transition ease-in duration-200 focus:outline-none">
+                Black
+            </button>
+            <button id="red"
+                    class=" px-6 py-2 text-white font-sans text-sm font-medium shadow-sm bg-red-500 rounded-full mr-3 mt-3 hover:bg-red-700 active:shadow-lg mouse transition ease-in duration-200 focus:outline-none">
+                Red
+            </button>
+            <button id="removeQuery"
+                    class=" px-6 py-2 text-white font-sans text-sm font-medium shadow-sm bg-gray-600 rounded-full mr-3 mt-3 hover:bg-gray-800 active:shadow-lg mouse transition ease-in duration-200 focus:outline-none">
+                Clear Filter
+            </button>
         </div>
     </div>
+</div>
 
-    <div id="list_div" class="content pointer">
-        <ul id="cafe-list">
-        </ul>
+<!-- Empty Animation -->
+<div id="empty_animation" class="hidden">
+    <div class="mt-10 justify-center flex">
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+        <lottie-player src="https://assets7.lottiefiles.com/datafiles/vhvOcuUkH41HdrL/data.json"
+                       background="transparent"
+                       speed="1" style="width: 300px; height: 300px;" loop autoplay></lottie-player>
     </div>
+</div>
 
-    <div id="ani" class="hidd">
-        <div class="uk-card uk-card-default uk-card-body uk-text-center work margin-medium">
-            Psst! Nothing is in here. Try adding something to see.
-            <div class="margin-medium spacer">
-                <button id="refresher" class="uk-button">Refresh</button>
-            </div>
-        </div>
+<!--   Command List -->
+
+<div class="flex justify-center">
+    <div class="py-10 w-1/2">
+        <ul id="command_list"></ul>
     </div>
+</div>
+
+<!-- FAB Add -->
+<div id="fab_add" class="fixed bottom-0 right-0 mr-6 mb-6">
+    <button
+            class="p- w-12 h-12 bg-orange-600 rounded-full hover:bg-orange-700 active:shadow-lg mouse shadow transition ease-in duration-200 focus:outline-none">
+        <svg id="fab_add_icon" viewBox="0 0 20 20" class="w-8 h-8 inline-block closed">
+            <path fill="#FFF"
+                  d="M16 10c0 .553-.048 1-.601 1H11v4.399c0 .552-.447.601-1 .601-.553 0-1-.049-1-.601V11H4.601C4.049 11 4 10.553 4 10c0-.553.049-1 .601-1H9V4.601C9 4.048 9.447 4 10 4c.553 0 1 .048 1 .601V9h4.399c.553 0 .601.447.601 1z"/>
+        </svg>
+    </button>
+</div>
+
+<!-- FAB Filter -->
+<div id="fab_filter" class="fixed bottom-0 left-0 ml-6 mb-6">
+    <button
+            class="p-3 w-12 h-12 bg-blue-600 rounded-full hover:bg-blue-700 active:shadow-lg mouse shadow transition ease-in duration-200 focus:outline-none">
+        <svg id="fab_filter_icon" class="h-10 w-10" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#fff"
+             stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M22 3H2l8 9.46V19l4 2v-8.54L22 3z"/>
+        </svg>
+    </button>
+</div>
 
 
-</body>
-
-<script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
-<script src="https://www.gstatic.com/firebasejs/6.0.2/firebase-firestore.js"></script>
-
+<script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-firestore.js"></script>
 <script>
-    var firebaseConfig = {
+    let firebaseConfig = {
         apiKey: "AIzaSyB_VelAX2Fwtz2YE3tQUdkOUvvTP3aPpCw",
         authDomain: "andronix-techriz.firebaseapp.com",
         databaseURL: "https://andronix-techriz.firebaseio.com",
         projectId: "andronix-techriz",
         storageBucket: "andronix-techriz.appspot.com",
         messagingSenderId: "83697300023",
-        appId: "1:83697300023:web:62d2876d99699a09"
+        appId: "1:83697300023:web:a9bbb4b9f2ee7c9e9a45b2",
+        measurementId: "G-FGC8FHWTCZ"
     };
+    // Initialize Firebase
     firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
 </script>
-<script src="home.js"></script>
+
+<script src="js/home.js"></script>
+</body>
 
 </html>

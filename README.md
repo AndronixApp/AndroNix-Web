@@ -31,7 +31,7 @@ This app lets you install various popular Linux distributions on your Android de
   
 * **Budding Communities** - We now support official AndroNix communities on Telegram and WhatsApp. We will soon expand to other platforms as well.  
   
-* **Automation Added** - If you choose AndroNix Premium, we'll handle everything for you. Just login and forget the rest.  
+* **Automation Added** - If you choose AndroNix Premium, we'll handle everything for you. Just index and forget the rest.  
   
 * **Profile Tab Added** - Profile let's you see your current status (Premium or not). If you're a premium member, profile section has many things for you.  
   

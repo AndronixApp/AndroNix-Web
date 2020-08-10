@@ -1,0 +1,25 @@
+{
+  "name": "andronix-web-2.0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel public/index.html public/home.html",
+    "build": "parcel build public/index.html public/home.html",
+    "deploy": "firebase deploy --only hosting",
+    "launch": "npm run build && npm run deploy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "tailwindcss": "^1.6.2",
+    "toastify-js": "^1.9.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "parcel-bundler": "^1.12.4"
+  }
+}
