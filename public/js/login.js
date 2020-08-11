@@ -22,7 +22,6 @@ firebase.auth().onAuthStateChanged(function (user) {
         uid = user.uid;
         //checking the entitlement
 
-
         isAllowed(user.email).then(r => {
             hide()
             showToast("Premium account verified, redirecting...", true)

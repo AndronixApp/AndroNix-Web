@@ -1,5 +1,7 @@
+import 'regenerator-runtime/runtime'
 import showToast from '../modules/showToast'
 import "toastify-js/src/toastify.css"
+import isAllowed from '../modules/checkPrem'
 
 
 let isAddLayoutVisible = false;
@@ -83,13 +85,40 @@ function closeFilterLayout() {
     isFilterLayoutVisible = false;
 }
 
+function checkForPrem(email) {
+    isAllowed(email).then(r => {
+        console.log(r)
+    }).catch(e => {
+        console.log({premiumVerification: e})
+        showToast("Oops! We couldn't verify your Premium account.", false, 5000)
+        setTimeout(() => {
+            showToast("Logging you out in 3 seconds...", false, 3000)
+        }, 2000)
+
+        setTimeout(() => {
+            firebase
+                .auth()
+                .signOut()
+                .then(function () {
+                    location.reload();
+                })
+                .catch(function (error) {
+                    showToast("Something went wrong!", false)
+                });
+
+        }, 6000);
+
+    })
+
+}
+
 window.onload = function () {
     firebase.auth().onAuthStateChanged(function (user) {
         if (user) {
             // User is signed in.
             let user = firebase.auth().currentUser;
-
             if (user != null) {
+                checkForPrem(user.email)
                 uid = user.uid;
                 document.getElementById("welcome_text").innerHTML = user.email;
                 fetchCommands("");
