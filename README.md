@@ -1,96 +1,41 @@
-<img src="https://github.com/Techriz/AndronixOrigin/blob/master/Assests/banner.png" height="715" width="805" />
 
-## AndroNix - Linux on Android
 
-Andronix lets you install a Linux system on your Android Device without root. We found out that using Linux on Android is quite useful and lets you do many heavy tasks on your Android device.
-
-  
-This app lets you install various popular Linux distributions on your Android device by using Termux and PRoot functionality on the Android system. The application also provides you a graphics layer or Desktop environment (Xfce, MATE, LXDE, LXQt) on the top of the Linux shell which makes the user experience much better than working on a Linux command line.
-
-> AndroNix may or may not work for your device. As Linux is not optimized for Android and there can be zillion hardware combinations devices, thereby making it impossible to debug for each and every device. 
-
-## **AndroNix 4.0 or above supports -**
-
-* **AndroNix Premium** - We have released AndroNix Premium with tons of features.  
-  
-* **Dark Mode** - Use AndroNix at night comfortably.  
-  
-* **AndroNix Commands** - A special addition to the family of AndroNix. It's all you need to manage your commands throughout your life. Just copy and paste!  
-  
-* **AndroNix Web App** - We have also released our web app to compliment AndroNix commands on Android, so you can now access Commands on any internet connected device.  
-  
-* **AndroNix Feed** - We saw that since the last release you guys were really happy about the blogs we posted. So now we have a dedicated blog feed to make a better use of Linux and the power it offers.  
-  
-* **Offline Downloads** - Internet can be unpredictable sometimes, but don't worry we're introducing offline support of Linux distros, though you'll be still needing internet to download some files depending upon your device at the time of installing.  
-
-* **7 Languages Supported** - Now you can switch between 7 native languages within the app without change the default language of your device. 
-  
-* **Robust Documentation** - We've been working on writing some documentations for weeks now. This will enable you to help yourself without waiting for us to reply.  
-  
-* **Priority Support** - AndroNix Premium bring priority support with it at no extra cost. IF you're an AndroNix Premium member just enjoy the blazing fast support, on the platform you like!  
-  
-* **Budding Communities** - We now support official AndroNix communities on Telegram and WhatsApp. We will soon expand to other platforms as well.  
-  
-* **Automation Added** - If you choose AndroNix Premium, we'll handle everything for you. Just index and forget the rest.  
-  
-* **Profile Tab Added** - Profile let's you see your current status (Premium or not). If you're a premium member, profile section has many things for you.  
-  
-* **Termux is now available offline** - We now offer an offline copy of Termux within  
-AndroNix. It is the officially signed APK with the original keys so you can update it via Google Play Store.
-
-<p align="center">
-  <img src="https://github.com/Techriz/AndronixOrigin/blob/master/Assests/ubuntu.png" height="450" width="253.0" />
-  <img src="https://github.com/Techriz/AndronixOrigin/blob/master/Assests/manjaro.png" height="450" width="253.0" /> 
-  <img src="https://github.com/Techriz/AndronixOrigin/blob/master/Assests/kali.png" height="450" width="253.0"/>
-</p>
 
 
 <p align="center">
- <img src="https://github.com/Techriz/AndronixOrigin/blob/master/Assests/audio.png" height="450" width="253.0" />
-  <img src="https://github.com/Techriz/AndronixOrigin/blob/master/Assests/softwares.png" height="450" width="253.0" /> 
-  <img src="https://github.com/Techriz/AndronixOrigin/blob/master/Assests/installations.png" height="450" width="253.0"/>
+<img src="https://raw.githubusercontent.com/AndronixApp/AndroNix-Web/master/screenshots/command_app_logo_verticle.png">
 </p>
 
-## Some important things - 
+<p align="center">
+  <a href="https://forum.andronix.app"><img src="https://img.shields.io/badge/Questions%3F-Join%20our%20forum-blue?style=flat-square"></a>
+  <a href="https://chat.andronix.app"><img src="https://img.shields.io/badge/Join%20us%20on-Discord-blue?style=flat-square&logo=discord"></a>
+  <a href="https://docs.andronix.app"><img src="https://img.shields.io/badge/Documentation-Read%20the%20docs-blue?style=flat-square"></a>
+  <a href="https://play.google.com/store/apps/details?id=studio.com.techriz.andronix"><img src="https://img.shields.io/badge/Download-Google%20Play-orange?style=flat-square&logo=google-play"></a>
+  <a href="https://github.com/AndronixApp/AndronixOrigin/releases"><img src="https://img.shields.io/badge/Download-GitHub%20Releases-orange?style=flat-square&logo=github"></a>
 
-If you are new to Linux, we provide you easy and hassle-free instructions which makes your first impression of Linux a lot better. In case you still face some issues you can easily contact us on various platforms mentioned in the app. We ensure you that we will contact you as soon as possible.  
-  
-Features:  
-  
-- No root permissions required.  
-- Distros we support:  
-* Manjaro
-* Ubuntu  
-* Kali Linux  
-* Debian  
-* Parrot OS  
-* Fedora  
-* Arch Linux  
-  
-- Desktop environments we support:
-* LXDE  
-* LXQT  
-* MATE  
-* XFCE  
-  
-- One click install/uninstall feature.  
-- Features multiboot linux system.  
-  
-**NOTE:**  
-  
-- Termux in required.  
-  
-- Android version should be atleast 5.0  
-  
-- Device architecture supported: ARMv7, ARM64, x64.
+<br>
+<h1 align="center">Andronix Commands | Web 🔥</h1>
+<br>
 
-## Reach us
-  
-**AndroNix communities**  
-Twitter- https://twitter.com/AndronixApp  
-Telegram- https://t.me/AndronixApp
-Discord- https://discord.gg/jywhBH4 
+<p align="center">
+<img src="https://raw.githubusercontent.com/AndronixApp/AndroNix-Web/master/screenshots/add.png" width="400" >
+<img src="https://raw.githubusercontent.com/AndronixApp/AndroNix-Web/master/screenshots/filter.png" width="400" >
+<img src="https://raw.githubusercontent.com/AndronixApp/AndroNix-Web/master/screenshots/login.png" width="400" >
+<img src="https://raw.githubusercontent.com/AndronixApp/AndroNix-Web/master/screenshots/add.png" width="400" >
+</p>
 
-## Credits 
-Termux- https://play.google.com/store/apps/details?id=com.termux  
-  
+# How does this work?
+Andronix Commands is a part of Andronix App that lets you **copy and sync** saved commands on all your machines so that you don't forget your 50 character long commands 😅. 
+
+
+
+# Get started now 🚀
+To get started with Commands, you need to have a Andronix Premium account, which is a one time payment and unlocks a bunch on things for the price. After purchasing the Premium you're all set.
+
+You can use commands on web @ https://web.andronix.app
+or by visiting the Commands section of the app.
+
+#  Technical Details 💻
+Here are some details regarding the web app which should be very obvious to some but not to the others.
+
+This project doesn't uses any **JavaScript Framework** being a very simple application, it had to be as light as possible. The project is hosted on **Firebase Hosting** and gets bundled and minified by **Parcel** and the CSS is optimised with **postcss-uncss for Parcel**.
