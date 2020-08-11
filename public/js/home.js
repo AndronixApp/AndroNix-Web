@@ -87,7 +87,7 @@ function closeFilterLayout() {
 
 function checkForPrem(email) {
     isAllowed(email).then(r => {
-        console.log(r)
+        console.log("Command access verified!")
     }).catch(e => {
         console.log({premiumVerification: e})
         showToast("Oops! We couldn't verify your Premium account.", false, 5000)
@@ -110,6 +110,7 @@ function checkForPrem(email) {
 
     })
 }
+
 window.onload = function () {
     firebase.auth().onAuthStateChanged(function (user) {
         if (user) {
