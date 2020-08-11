@@ -109,9 +109,7 @@ function checkForPrem(email) {
         }, 6000);
 
     })
-
 }
-
 window.onload = function () {
     firebase.auth().onAuthStateChanged(function (user) {
         if (user) {
