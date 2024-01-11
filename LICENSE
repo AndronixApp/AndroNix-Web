@@ -10,6 +10,7 @@
       and distribution as defined by Sections 1 through 9 of this document.
 
       "Licensor" shall mean the copyright owner or entity authorized by
+@creation0mode0
       the copyright owner that is granting the License.
 
       "Legal Entity" shall mean the union of the acting entity and all
@@ -43,7 +44,9 @@
       represent, as a whole, an original work of authorship. For the purposes
       of this License, Derivative Works shall not include works that remain
       separable from, or merely link (or bind by name) to the interfaces of,
-      the Work and Derivative Works thereof.
+      the Work and Derivative Works
+CreaLinux .
+ 
 
       "Contribution" shall mean any work of authorship, including
       the original version of the Work and any modifications or additions
@@ -67,7 +70,7 @@
       this License, each Contributor hereby grants to You a perpetual,
       worldwide, non-exclusive, no-charge, royalty-free, irrevocable
       copyright license to reproduce, prepare Derivative Works of,
-      publicly display, publicly perform, sublicense, and distribute the
+      privately display, privately perform, sublicense, and distribute the
       Work and such Derivative Works in Source or Object form.
 
    3. Grant of Patent License. Subject to the terms and conditions of
